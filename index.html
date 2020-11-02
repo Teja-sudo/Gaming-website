@@ -14,7 +14,7 @@
                     <a href="#"><i class="fas fa-gamepad fa-2x" style="color: rgb(9, 173, 9);"> <Span style="color: rgb(246, 251, 255);">Gaming</Span> World</i></a>
                 </div>
                 <nav>
-                    <button id="nav-toggle" class="hamburger-menu">
+                    <button id="nav-toggle" class="hamburger-menu" onclick="hamburgerMenu()">
                         <span class="strip"></span>
                         <span class="strip"></span>
                         <span class="strip"></span>
@@ -24,7 +24,7 @@
                         <li><a href="#">Games</a></li>
                         <li><a href="#">Tournaments</a></li>
                         <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <a href="#" id="login-register-button">Login</a>
@@ -294,11 +294,6 @@
 
         
 
-        <script>
-            document.getElementById('nav-toggle').addEventListener('click', function () {
-                let navMenu = document.getElementById('nav-menu-container');
-                navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
-            });
-        </script>
+        <script src="js/javascript.js"></script>
     </body>
 </html>
